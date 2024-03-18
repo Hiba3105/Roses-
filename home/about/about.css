@@ -1,0 +1,52 @@
+
+.services h2 {
+    text-align: center;
+    margin:50px 50px;
+    justify-content: center;
+    color: red;
+
+}
+
+.services .container{
+    display:flex;
+  
+
+
+}
+    
+.services .card {
+  
+    margin-right: 5px;
+    box-shadow: 3px 3px 6px 6px #cccccc;
+    padding: 5px;
+    width: 13%;
+    height: 70vh;
+    margin:30px auto;
+    margin-bottom: 40px;
+    margin-top: 16;
+    text-align: center;
+    overflow:hidden;
+    color: gray;
+
+}
+
+.card h3{
+    color: red;
+    font-weight: 1000;
+}
+
+.card p{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+  
+

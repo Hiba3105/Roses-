@@ -1,0 +1,51 @@
+html,body{
+    height: 100%;
+}
+body{
+    background: white;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+.warap{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.right{
+    display: table-cell;
+    width: 50%;
+    padding: 50px;
+}
+.right h2{
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.right h2 b{
+    display: block;
+    width: 50px;
+    height: 1px;
+    background-color: gray;
+    margin: 5px;
+}
+.right label{
+    margin-bottom: 15px;
+    float: right;
+    width: 100%;
+}
+.right label span{
+    display: block;
+    margin-bottom: 10px;
+    color: grey;
+    font-size: 14px;
+}
